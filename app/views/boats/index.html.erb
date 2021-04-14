@@ -1,0 +1,10 @@
+<h1 style="text-align: center;">Welcome to the boats_underscore_application</h1>
+
+
+<p><% @boats.each do |boat| %></p>
+<p>title: <%= boat.title %></p>
+<p>colot: <%= boat.color %></p>
+<p>capacity: <%= boat.capacity %></p>
+<p>price: <%= boat.price %></p>
+<hr>
+<% end %>
